@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(232, 238, 238);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.inputcontainer{
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+}
+
+.inputcontainer input{
+    border: none;
+    outline: none;
+    padding: 12px;
+    margin-block: 12px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.inputcontainer input[type="text"]{
+    width: 70%;
+}
+
+.inputcontainer input[type="button"]{
+    background-color: #3da33d;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 8px;
+    cursor: pointer;
+    padding: 12px 24px;
+}
+
+.inputcontainer input[type="button"]:hover{
+    background-color: #60b160;
+}
+
+ul{
+    width: 100%;
+    max-width: 450px;
+}
+
+ul li{
+    list-style-type: none;
+    cursor: pointer;
+    margin-block-end: 12px;
+    border-radius: 8px;
+    border: 0.125px solid #a19f9f;
+    padding: 6px 12px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.5s;
+    overflow-wrap: break-word;
+}
+
+ul li:hover{
+    background-color: #cbcaca;
+}
+
+ul li p{
+    flex-grow: 1;
+    padding: 2px;
+}
+.button{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: none;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.deletebutton{
+    color: #ff0000;
+}
+
+.editbutton{
+    color: #008000;
+}
+
+.inputcontainer input[type="date"],
+.inputcontainer input[type="time"] {
+    padding: 12px;
+    margin-block: 12px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+ul li .task-meta {
+    font-size: 12px;
+    color: #555;
+    margin-top: 4px;
+}
