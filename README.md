@@ -13,7 +13,4 @@ A clean and interactive To-Do List web app to manage your tasks effectively. Add
 - CSS3
 - JavaScript (DOM manipulation)
 
-## 📸 Screenshot
-![To-Do List Screenshot](screenshot.png)
 
-## 📁 Project Structure
